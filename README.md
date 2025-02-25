@@ -12,7 +12,7 @@ AI's advanced **pattern recognition** enhances accuracy and speed in identifying
 ## 🚀 Features
 - **PII Detection**: Identifies sensitive information such as names, PAN, passport numbers, etc.
 - **RAG Model Integration**: Leverages Retrieval-Augmented Generation for more accurate PII detection.
-- **Encryption**: Uses AES/RSA encryption for securing detected PII.
+- **Encryption**: Uses **HashiCorp Vault** for secure encryption and key management.
 - **Decryption**: Key-based access control to decrypt sensitive information.
 - **User-Friendly Interface**: Built using **Streamlit** for easy document uploads and processing.
 - **Secure Data Storage**: Stores encrypted data to prevent unauthorized access.
@@ -22,7 +22,8 @@ AI's advanced **pattern recognition** enhances accuracy and speed in identifying
 - **Frameworks**: Streamlit
 - **Libraries**: PyPDF2, OpenAI API, 
 - **Model**: Retrieval-Augmented Generation (RAG) for PII detection
-- **Encryption Methods**: AES (Advanced Encryption Standard), RSA (Rivest-Shamir-Adleman)
+- **Encryption Methods**: **HashiCorp Vault**, AES (Advanced Encryption Standard), RSA (Rivest-Shamir-Adleman)
+
 
 ## 🔧 Installation
 1. Clone the repository:
